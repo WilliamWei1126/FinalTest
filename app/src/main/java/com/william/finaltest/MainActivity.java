@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
 
                 }
 
-                for (int i = 0 ; i<5 ; i++){
+                for (int i = 0 ; i < Pointarray.size() - 1 ; i++){
 
 
                     Imgproc.line(imgblank, Pointarray.get(i), Pointarray.get(i+1), LineColor, linewidth);
